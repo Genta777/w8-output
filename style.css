@@ -1,0 +1,18 @@
+.grid{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-img{
+    list-style: none;
+    padding: 20px;
+}
+
+.grid-A > grid-img {
+    width: 25%;
+}
+
