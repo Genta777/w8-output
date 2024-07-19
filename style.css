@@ -1,18 +1,24 @@
+*{
+    box-sizing: border-box  ;
+}
+
+
 .grid{
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
 }
 
 .grid-img{
-    list-style: none;
-    padding: 20px;
+    height: 100px;
+    background-color: #000;
+    border: 1px solid #fff;
 }
 
-.grid-A > grid-img {
+.grid-A > .grid-img{
     width: 25%;
 }
-
