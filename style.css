@@ -13,16 +13,16 @@
     justify-content: center;
 }
 
-.grid-img{
+.grid-item{
     height: 100px;
     background-color: #000;
     border: 1px solid #fff;
 }
 
-.grid-A > .grid-img{
+.grid-A > .grid-item{
     width: 25%;
 }
 
-.grid-B > .grid-img{
+.grid-B > .grid-item{
     width: 50%;
 }
