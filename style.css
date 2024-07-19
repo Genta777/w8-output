@@ -22,3 +22,7 @@
 .grid-A > .grid-img{
     width: 25%;
 }
+
+.grid-B > .grid-img{
+    width: 50%;
+}
