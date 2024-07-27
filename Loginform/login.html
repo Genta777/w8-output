@@ -19,34 +19,32 @@
     <link rel="stylesheet" href="./css/style2.css">
 </head>
 <body>
-    <div class="container">
-        <form class="login">
-            <p class="login-head">Sign in to your account</p>
-            <table>
-                <tr>
-                    <th>
-                        Your email
-                    </th>
-                    <td>
-                        <input type="email">
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        Password
-                    </th>
-                    <td>
-                        <input type="password">
-                    </td>
-                </tr>
-            </table>
-            <button class="button" type="submit">Sign in</button>
-            <div class="sign up">
-                <p>Don't have an account yet?</p>
-                <a href="#">Sign up</a>
-            </div>
-        </form>
-    </div>
+    <form class="login">
+        <p class="login-head">Sign in to your account</p>
+        <table class="login-table">
+            <tr class="login-id">
+                <th>
+                    <label for="email">Your email</label>
+                </th>
+                <td>
+                    <input class="input" type="email">
+                </td>
+            </tr>
+            <tr class="login-pass">
+                <th>
+                    <label for="password">Password</label>
+                </th>
+                <td>
+                    <input class="input" type="password">
+                </td>
+            </tr>
+        </table>
+        <button class="button" type="submit">Sign in</button>
+        <div class="sign-up">
+            <p>Don't have an account yet?</p>
+            <a href="#">Sign up</a>
+        </div>
+    </form>
 
 </body>
 </html>
